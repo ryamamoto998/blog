@@ -1,0 +1,28 @@
+/* <system section="theme" selected="report"> */
+@import "/css/theme/report/report.css";
+/* </system> */
+
+/* <system section="background" selected="fff"> */
+body{background:#fff;}
+/* </system> */
+
+.entry blockquote {
+    border-left: 4px solid #bbb;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+}
+cite {font-style: normal;}
+cite:before {content: "― ";}
+.entry-content p, .entry-content li {
+    text-align: justify;
+    font-family: "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", "HiraMinProN-W3", "HiraMinProN-W6", "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "HiraMinPro-W3", "HiraMinPro-W6", "游明朝体", "YuMincho", "游明朝", "Yu Mincho", "HG明朝E", "HGP明朝E", "HGS明朝E", "HGMinchoE", "HGPMinchoE", "HGSMinchoE", "HG明朝B", "HGP明朝B", "HGS明朝B", "HGMinchoB", "HGPMinchoB", "HGSMinchoB", "平成明朝", "平成明朝 Std", "平成明朝 Pro", "Heisei Mincho", "Heisei Mincho Std", "Heisei Mincho Pro", "IPA明朝", "IPAMincho", "georgia ref", "times new roman", serif
+}
+
+.hatena-module-category li,.urllist-item {transition: background-color 0.4s;}
+.hatena-module-category .hatena-urllist li:hover {background-color: #eee;}
+.hatena-module-body ul li {padding: 0.2em 0.5em;}
+.subscription-count {display: block;}
+.urllist-item:hover {background-color: #ddd;}
+
+img.magnifiable {width: 40%; height: 40%;}
