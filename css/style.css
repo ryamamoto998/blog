@@ -1,3 +1,4 @@
+
 /* <system section="theme" selected="report"> */
 @import "/css/theme/report/report.css";
 /* </system> */
@@ -19,7 +20,12 @@ cite:before { content: "― "; }
     font-family: "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", "HiraMinProN-W3", "HiraMinProN-W6", "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "HiraMinPro-W3", "HiraMinPro-W6", "游明朝体", "YuMincho", "游明朝", "Yu Mincho", "HG明朝E", "HGP明朝E", "HGS明朝E", "HGMinchoE", "HGPMinchoE", "HGSMinchoE", "HG明朝B", "HGP明朝B", "HGS明朝B", "HGMinchoB", "HGPMinchoB", "HGSMinchoB", "平成明朝", "平成明朝 Std", "平成明朝 Pro", "Heisei Mincho", "Heisei Mincho Std", "Heisei Mincho Pro", "IPA明朝", "IPAMincho", "georgia ref", "times new roman", serif
 }
 
-.hatena-module-body ul li {padding: 0.2em 0.5em;}
-.subscription-count {display: block;}
+.hatena-module-body ul li { padding: 0.2em 0.5em; }
+.subscription-count { display: block; }
 
-img.magnifiable {width: 40%; height: 40%;}
+img.magnifiable { width: 40%; height: 40%; }
+.entry-content h2 { font-size: 140%; }
+.entry-content h3 { font-size: 110%; border-bottom: none; }
+.entry-content h4 { font-size: 100%; border-bottom: none; }
+.entry-content h5 { font-size: 100%; border-bottom: none; }
+.entry-content h6 { font-size: 100%; border-bottom: none; }
